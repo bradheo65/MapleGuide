@@ -46,7 +46,7 @@ final class MainViewController: ContentViewController {
     
     private func setupNavigationController() {
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont.MapleLightFont()]
-        navigationItem.title = "MapleStory Guide"
+        navigationItem.title = "MSBook"
     }
     
     private func setupMainCollectionView() {
