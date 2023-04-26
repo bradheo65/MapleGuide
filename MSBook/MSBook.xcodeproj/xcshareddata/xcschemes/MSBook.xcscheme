@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "45ACA2612988D75C00BD9935"
-               BuildableName = "MapleStoryGuide.app"
-               BlueprintName = "MapleStoryGuide"
-               ReferencedContainer = "container:MapleStoryGuide.xcodeproj">
+               BuildableName = "MSBook.app"
+               BlueprintName = "MSBook"
+               ReferencedContainer = "container:MSBook.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45ACA2612988D75C00BD9935"
-            BuildableName = "MapleStoryGuide.app"
-            BlueprintName = "MapleStoryGuide"
-            ReferencedContainer = "container:MapleStoryGuide.xcodeproj">
+            BuildableName = "MSBook.app"
+            BlueprintName = "MSBook"
+            ReferencedContainer = "container:MSBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45ACA2612988D75C00BD9935"
-            BuildableName = "MapleStoryGuide.app"
-            BlueprintName = "MapleStoryGuide"
-            ReferencedContainer = "container:MapleStoryGuide.xcodeproj">
+            BuildableName = "MSBook.app"
+            BlueprintName = "MSBook"
+            ReferencedContainer = "container:MSBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
