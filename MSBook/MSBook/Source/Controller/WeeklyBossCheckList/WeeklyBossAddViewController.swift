@@ -57,7 +57,7 @@ final class WeeklyBossAddViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = .white
+        self.view.backgroundColor = .secondarySystemBackground
         self.okButton.addTarget(
             self,
             action: #selector(didTapOkButton(sender:)),
@@ -164,7 +164,6 @@ extension WeeklyBossAddViewController: UICollectionViewDelegate {
         sucessAlertController.addAction(okAction)
         failureAlertController.addAction(okAction)
         
-        // MARK: 로직 변경이 필요해 보임
         if filterWeeklyBossInfo.isEmpty {
             filterWeeklyBossInfo.append(data)
             self.delegate?.weelyBossAdd(from: data)

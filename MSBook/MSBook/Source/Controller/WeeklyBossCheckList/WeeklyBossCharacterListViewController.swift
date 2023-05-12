@@ -24,7 +24,7 @@ final class WeeklyBossCharacterListViewController: ContentMyCharacterListViewCon
     private var selectWorld = ""
 
     private let worldPickerView = UIPickerView(
-        frame: CGRect(x: 5, y: 50, width: 260, height: 160)
+        frame: CGRect(x: 5, y: 50, width: 260, height: 140)
     )
     
     private let kindView = KindHeaderView()
@@ -73,7 +73,7 @@ final class WeeklyBossCharacterListViewController: ContentMyCharacterListViewCon
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = .white
+        self.view.backgroundColor = .secondarySystemBackground
         navigationItem.title = "주간 보스 체크 리스트"
         setupView()
         setupLayout()
@@ -102,7 +102,6 @@ private extension WeeklyBossCharacterListViewController {
     func setupLayout() {
         kindView.snp.makeConstraints { make in
             make.top.leading.trailing.equalTo(self.view.safeAreaLayoutGuide)
-            make.height.equalTo(self.view.snp.height).multipliedBy(0.05)
         }
         
         collectionView.snp.makeConstraints { make in
@@ -112,7 +111,6 @@ private extension WeeklyBossCharacterListViewController {
         
         characterAddButton.snp.makeConstraints { make in
             make.trailing.bottom.equalTo(self.view).inset(20)
-            
             make.width.height.equalTo(self.view.snp.width).multipliedBy(0.15)
         }
     }
@@ -325,7 +323,7 @@ final class KindHeaderView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        self.backgroundColor = .white
+        self.backgroundColor = .secondarySystemBackground
         self.translatesAutoresizingMaskIntoConstraints = false
         setupView()
         setupLayout()
