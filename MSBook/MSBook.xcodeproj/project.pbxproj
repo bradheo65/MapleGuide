@@ -77,6 +77,10 @@
 		A3E3795E29F104D200FE688E /* RewardItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E3795D29F104D200FE688E /* RewardItemCell.swift */; };
 		A3E3796029F104E600FE688E /* MainBossImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E3795F29F104E600FE688E /* MainBossImageCell.swift */; };
 		A3E3796229F1052700FE688E /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E3796129F1052700FE688E /* CheckBox.swift */; };
+		C6A8E3332A3809510028CFE7 /* SetItemCombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A8E3322A3809510028CFE7 /* SetItemCombineViewController.swift */; };
+		C6A8E3362A384BF90028CFE7 /* ItemSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A8E3352A384BF90028CFE7 /* ItemSlotView.swift */; };
+		C6A8E3382A384C060028CFE7 /* OptionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A8E3372A384C060028CFE7 /* OptionListView.swift */; };
+		C6A8E33A2A384C140028CFE7 /* SetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A8E3392A384C140028CFE7 /* SetListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +153,10 @@
 		A3E3795D29F104D200FE688E /* RewardItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardItemCell.swift; sourceTree = "<group>"; };
 		A3E3795F29F104E600FE688E /* MainBossImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBossImageCell.swift; sourceTree = "<group>"; };
 		A3E3796129F1052700FE688E /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		C6A8E3322A3809510028CFE7 /* SetItemCombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetItemCombineViewController.swift; sourceTree = "<group>"; };
+		C6A8E3352A384BF90028CFE7 /* ItemSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSlotView.swift; sourceTree = "<group>"; };
+		C6A8E3372A384C060028CFE7 /* OptionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionListView.swift; sourceTree = "<group>"; };
+		C6A8E3392A384C140028CFE7 /* SetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetListView.swift; path = ../../../../../../../../SetListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +233,7 @@
 		45ACA2852988D97B00BD9935 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C6A8E3312A38093E0028CFE7 /* SetItemCombineView */,
 				A3E3796329F1055400FE688E /* CommonView */,
 				A3E3794F29F1024B00FE688E /* WeeklyBossCheckList */,
 				A38A78B429E54BFA00213CC7 /* WebViewList */,
@@ -351,6 +360,7 @@
 		A3278C09298FCAED0004C278 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C6A8E3302A38070C0028CFE7 /* SetItemCombine */,
 				A37030F429D3C7CF00F3ADA4 /* WeeklyBossInfo */,
 				72CB8BD629BEFFF900A34A36 /* BossInfo */,
 				72CB8BD529BEFFE600A34A36 /* JobInfo */,
@@ -536,6 +546,32 @@
 			path = Json;
 			sourceTree = "<group>";
 		};
+		C6A8E3302A38070C0028CFE7 /* SetItemCombine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SetItemCombine;
+			sourceTree = "<group>";
+		};
+		C6A8E3312A38093E0028CFE7 /* SetItemCombineView */ = {
+			isa = PBXGroup;
+			children = (
+				C6A8E3342A384BD60028CFE7 /* SubView */,
+			);
+			path = SetItemCombineView;
+			sourceTree = "<group>";
+		};
+		C6A8E3342A384BD60028CFE7 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				C6A8E3352A384BF90028CFE7 /* ItemSlotView.swift */,
+				C6A8E3322A3809510028CFE7 /* SetItemCombineViewController.swift */,
+				C6A8E3392A384C140028CFE7 /* SetListView.swift */,
+				C6A8E3372A384C060028CFE7 /* OptionListView.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -636,6 +672,7 @@
 				A3278BDB298B59140004C278 /* JobImageViewCell.swift in Sources */,
 				A3900BBE29C0489C00B7C409 /* WeeklyBossCharacterListViewController.swift in Sources */,
 				72CDF3A8298A53E100918C1A /* Components.swift in Sources */,
+				C6A8E33A2A384C140028CFE7 /* SetListView.swift in Sources */,
 				A3900BC729C099B900B7C409 /* CoreDataManager.swift in Sources */,
 				A38A78B829E54CB200213CC7 /* WebViewController.swift in Sources */,
 				A3E3794E29F101B400FE688E /* Extension+UIImage.swift in Sources */,
@@ -644,6 +681,7 @@
 				72ECFFF0298BC9060045ADBB /* JSONManager.swift in Sources */,
 				72CB8BD829BF000D00A34A36 /* BossInfo.swift in Sources */,
 				7265762429C1AB20008DBA6F /* BossImageCell.swift in Sources */,
+				C6A8E3362A384BF90028CFE7 /* ItemSlotView.swift in Sources */,
 				72B6810A29C4535D00D81470 /* LevelAndForceCell.swift in Sources */,
 				A3E3796229F1052700FE688E /* CheckBox.swift in Sources */,
 				72E728F829939D0E00427640 /* Observable.swift in Sources */,
@@ -655,6 +693,7 @@
 				A3900BDB29C2F7FA00B7C409 /* WeeklyBossCalculatorViewController.swift in Sources */,
 				72ECFFED298BC2100045ADBB /* JobInfoViewModel.swift in Sources */,
 				45ACA2B229921D3700BD9935 /* SideMenuDelegate.swift in Sources */,
+				C6A8E3382A384C060028CFE7 /* OptionListView.swift in Sources */,
 				A37030EF29D2E0A400F3ADA4 /* CharacterInfo+CoreDataProperties.swift in Sources */,
 				A37030E929D2BCF900F3ADA4 /* WeeklyBossAddViewModel.swift in Sources */,
 				7229CE2829D6C5E700347D30 /* BossInformation+CoreDataProperties.swift in Sources */,
@@ -668,6 +707,7 @@
 				A38A78B329E3ED4D00213CC7 /* WebViewListViewController.swift in Sources */,
 				A3E3794929F100F300FE688E /* NumberFormatter.swift in Sources */,
 				45ACA2AA2991FFE700BD9935 /* ViewControllerPresentation.swift in Sources */,
+				C6A8E3332A3809510028CFE7 /* SetItemCombineViewController.swift in Sources */,
 				45ACA2B029921ABD00BD9935 /* SideMenuItem.swift in Sources */,
 				45ACA2AC2992002000BD9935 /* ContentViewController.swift in Sources */,
 				A3E3795E29F104D200FE688E /* RewardItemCell.swift in Sources */,
@@ -820,7 +860,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = B99296K282;
+				DEVELOPMENT_TEAM = R86M48N8C3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MSBook/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MSBook;
@@ -835,7 +875,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hs.MSBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hs.MSBook1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -855,7 +895,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = B99296K282;
+				DEVELOPMENT_TEAM = R86M48N8C3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MSBook/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MSBook;
@@ -870,7 +910,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hs.MSBook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hs.MSBook1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
